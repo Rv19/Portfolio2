@@ -41,8 +41,9 @@ this.state).then(response =>
     render(){
 		const{name,Email,Mobile}=this.state
         return(
-<div>
+<div className="banner-text2">
 	<form onSubmit={this.submitHandler} >
+
 	<div class="input-group mb-3">
 
   <div class="input-group-prepend">
@@ -73,7 +74,6 @@ this.state).then(response =>
 <div className="input-group mb-3">	
 </div>
 </div>
-
 
 	</form>
 

@@ -19,7 +19,7 @@ class Achievement extends Component{
             <Cell col={12}>
             <div className="row">
               <div className="col-xs-3">
-      <img src="ssb.jpeg" class="d-block w-100" width ="200px"alt="..."/>
+      <img src="ssb.jpeg" class="d-block w-100" alt="..."/>
      
       </div>
       </div>
@@ -43,27 +43,27 @@ class Achievement extends Component{
     </div>
     <div class="carousel-item ">
     <Grid>
-            <Cell col={12}>
+    <Cell col={12}>
             <div className="row">
               <div className="col-xs-3">
-      <img src="mba.jpeg" class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-sm-block">
-      </div>
+      <img src="mba.jpeg" width='100%' alt="..."/>
+     
       </div>
       </div>
       </Cell>
       <div className="row">
      
-        <div className="resume-right-col2"> 
-        <div className="col-xs-3">
-          <div className="asd">
-          <h4>W-OPTEC</h4>
+     <div className="resume-right-col2"> 
+     <div className="col-xs-3">
+       <div className="asd">
+       <h4>W-OPTEC</h4>
             <h6>Best Project</h6>     
-            <h5>Got Best Project for Supply Chain Management in W-OPTEC 2019. Won the best Project among all the MBA participants.</h5> 
-             </div>  
-    </div>
-    </div>
-    </div>
+            <h5>Got the  Best Project for Supply Chain Management in W-OPTEC 2019, Created An Android Application for Creating INDIA a stable Supply Chain Management System and Competeted among 25 MBA Groups and won the best Project among all the MBA participants.</h5> 
+           
+          </div> 
+          </div>
+          </div>
+          </div>
     </Grid>
     </div>
     <div class="carousel-item ">
@@ -71,7 +71,7 @@ class Achievement extends Component{
             <Cell col={12}>
             <div className="row">
               <div className="col-xs-3">
-      <img src="papien.jpeg" class="d-block w-100" alt="..."/>
+      <img src="papien.jpeg" class="d-block w-100" width ="200px"alt="..."/>
       <div class="carousel-caption d-none d-sm-block">
       </div>
       </div>
@@ -86,7 +86,7 @@ class Achievement extends Component{
          
             <h6 >Best Pitch</h6>    
             <div className="ach-grid"> 
-            <h5>Best Project Pitch for Helping Hands Application which was created for Old and Physically Disabled People.</h5> 
+            <h5>Best Project Pitch for Helping Hands Application which was created for Old and Physically Disabled People in our Society so that they dont have to Depend on someone for their Daily activities.</h5> 
              </div>
              </div>
              </div>

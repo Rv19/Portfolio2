@@ -20,7 +20,7 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Portfolio" scroll>
+        <Drawer> <a href ="/"className="draw"> Rohit Yadav</a>
         <Navigation>
                 <Link to="/resume">Resume</Link>
                 <Link to="/achievement">Achievements</Link>

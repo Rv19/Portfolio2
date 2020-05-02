@@ -16,16 +16,23 @@ class Contactme extends Component{
                   alt="avatar"
                   style={{height: '250px'}}
                    />
-                   </div>
-                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>If You have any Query please the Form Soon I will contact You. Thanks!!</p>
+                   
+                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>If You have any Query please fill the Form Soon I will contact You. Thanks!!</p>
                  </div>
+                 </div>
+          
               </Cell>
+              
               <Cell col={6}>
-                <h2 style={{ width: '100%', paddingTop: '1em'}}>Contact Me</h2>
-                <hr/>
-                <div style={{ width: '100%', paddingTop: '1em'}}>
+              <div className="rows">
+                <div className="col-xs-3">
+                <h2 style={{paddingTop: '1em'}}>Contact Me</h2>
+               
+                <div style={{ width: '100%'}}>
                 <Form/>
                 </div>
+                </div>
+                 </div>
               </Cell>
             </Grid>
           </div>
