@@ -40,7 +40,7 @@ class Resume extends Component{
             </div>
                 </Cell>
                 
-            <Cell className="resume-right-col" col={8} >
+            <Cell className="resume-right-col" col={6} >
             <div className="rows">
                 <div className="col-xs-3">
             <Education/>
