@@ -8,7 +8,7 @@ color:white;
 padding:16px;
 position:absolute;
 top:${props=>props.top}px;
-right:36px;
+right:60px;
 z-index:999;
 transition:top 0.5s ease;`;
 
