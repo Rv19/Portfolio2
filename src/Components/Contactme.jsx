@@ -18,7 +18,7 @@ class Contactme extends Component{
                   style={{width: '200px', height: '200px'}}
                    />
                    
-                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>Preparing for a Exam with all resources available should be every candidates Endeavor. So I Create this For the help of Others who Want Study Materials, this Website have Materials for All Four Years(1st, 2nd, 3rd, 4th) which includes Syllabus, Last Year Papers, Study PDf's, Assignments. If You have any Query please fill the Form Soon I will contact You. Thanks!!</p>
+                 <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}> If You have any Query please fill the Form Soon I will contact You. Thanks!!</p>
                  </div>
                                  </div>
           

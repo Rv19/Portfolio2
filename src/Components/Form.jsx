@@ -89,7 +89,7 @@ showNotification=()=>{
 <React.Fragment>
 <div className="submit">
 <button type="submit" class="btn btn-primary" onClick={this.showNotification}>Submit</button>
-             <Container top={this.state.top}>Thank You Soon I I will contact You!!</Container>
+             <Container top={this.state.top}>Thank You Soon I will contact You!!</Container>
             
 
 </div>

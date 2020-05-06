@@ -10,7 +10,7 @@ class Education extends Component {
                 src="Resume.jpeg"
                 alt="avatar"
                className="col-xs-3"
-               style={{height: '50%',width:'100%',margin:'auto'}}
+               style={{height: '100%',width:'100%',margin:'auto'}}
                  />
           </div>
           </div>
