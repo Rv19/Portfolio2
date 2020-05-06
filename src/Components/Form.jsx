@@ -1,5 +1,16 @@
 import React,{Component} from 'react';
 import axios from 'axios';
+import styled from 'styled-components';
+
+const Container=styled.div`
+background-color:black;
+color:white;
+padding:16px;
+position:absolute;
+top:${props=>props.top}px;
+right:36px;
+z-index:999;
+transition:top 0.5s ease;`;
 
 class Form extends Component{
 	constructor(props){
@@ -7,8 +18,10 @@ class Form extends Component{
 		this.state={
 			name:'',
 			Email:'',
-			Mobile:''
+			Mobile:'',
+			top:-209,
 		}
+		this.timeout=null;
 	}
 
 	changeHandler=(e)=>{
@@ -18,9 +31,6 @@ class Form extends Component{
 	submitHandler=(e)=>{
 		e.preventDefault()
 		console.log(this.state)
-
-		
-
 axios.post("https://sheet.best/api/sheets/bd7a12a5-bd2b-4b2f-8a92-e72dd9a3d3e4",
 this.state).then(response =>
 	{console.log(response)})
@@ -31,12 +41,19 @@ this.state).then(response =>
 		Mobile:''
 	  });
 	 
-
-	  
-
-
 }
 
+showNotification=()=>{
+	this.setState({
+		top:506,
+	},()=>{
+		setTimeout(()=>{
+			this.setState({
+				top:-200
+			});
+		},3000);
+	});
+}
 
     render(){
 		const{name,Email,Mobile}=this.state
@@ -69,11 +86,14 @@ this.state).then(response =>
 <input type="text" class="form-control" aria-describedby="emailHelp" name="Mobile" value={Mobile} onChange={this.changeHandler}></input>
 
 </div>
+<React.Fragment>
 <div className="submit">
-<button type="submit" class="btn btn-primary">Submit</button>
-<div className="input-group mb-3">	
+<button type="submit" class="btn btn-primary" onClick={this.showNotification}>Submit</button>
+             <Container top={this.state.top}>Thank You Soon I I will contact You!!</Container>
+            
+
 </div>
-</div>
+</React.Fragment>
 
 	</form>
 

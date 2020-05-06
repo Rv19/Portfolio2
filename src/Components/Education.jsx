@@ -6,11 +6,11 @@ class Education extends Component {
     return(
         <div className="rows">
           <div className="col-xs-3">
-        <img
+          <img
                 src="Resume.jpeg"
                 alt="avatar"
-               className="responsive"
-               style={{height: '900px',width:'850px',margin:'auto'}}
+               className="col-xs-3"
+               style={{height: '50%',width:'100%',margin:'auto'}}
                  />
           </div>
           </div>
