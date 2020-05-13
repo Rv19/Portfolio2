@@ -26,7 +26,7 @@ class Resume extends Component{
              </div>
              <div classname="contact-gridr">
             <hr  style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
-            <p>A Developer who soon going to a Officer in Indian Navy.I started doing Development from Androif Development and then I shift towards the web Application.I created many applications all for Web and Mobile both.I love to take part in hackathons and currently placed in Publicis Sapient and enhancing my technical Knowledge and waiting for call from Indian Navy.</p>
+            <p>A Developer who started doing Development from Android Development and then I shift towards the web Application.I created many applications all for Web and Mobile both.I love to take part in hackathons and also working with Publicis Sapient and enhancing my technical Knowledge</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '100%'}}/>
             <h5>Address</h5>
             <p>236 - A Shyam Enclave Panchyawala, Jaipur, Rajasthan</p>
